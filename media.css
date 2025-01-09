@@ -6,12 +6,12 @@
 
   .navbar {
 display: inline-grid;
-margin: 5px;
-padding: 0px 50px;
+
+padding: 0px 70px;
   }
   .navbar .menu {
       display: inline-grid;
-      margin: 5px;
+     
       padding: 1rem;
   }
   .navbar .menu a {
@@ -262,17 +262,16 @@ padding: 1rem;
   }
 }
 
-@media (min-width: 769px) and (max-width:1201px) {
+@media (min-width: 769px) and (max-width:1024px) {
   .cards {
     flex-wrap: wrap;
-    display: flex;
+    
     justify-content: center;
     gap: 1rem;
 }
 .footer-section {
   flex-wrap: wrap;
-  
-margin: 10px;
+
 padding: 1rem;
 }
 }
