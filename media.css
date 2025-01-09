@@ -1,33 +1,33 @@
-@media (max-width: 400px) {
+@media (min-width: 320px) and (max-width:480px) {
   body {
       margin: 0;
       font-family: arial, sans-serif;
   }
 
   .navbar {
-display: -moz-inline-box;
+display: inline-grid;
 margin: 5px;
-padding: 1rem;
+padding: 0px 50px;
   }
   .navbar .menu {
-      display: -moz-inline-box;
+      display: inline-grid;
       margin: 5px;
       padding: 1rem;
   }
   .navbar .menu a {
-      display: -moz-inline-box;
+      display: inline-block;
 margin: 5px;
 padding: 1rem;
     }
   
     .navbar .menu a:hover {
-      display: -moz-inline-box;
+      display: inline-block;
 margin: 5px;
 padding: 1rem;
     }
   
     .navbar .search {
-      display: -moz-inline-box;
+      display: inline-block;
 margin: 5px;
 padding: 1rem;
     }
@@ -45,7 +45,7 @@ padding: 1rem;
     }
   
     .navbar .search button:hover {
-      display: inline-block;
+     display: inline-block;
 margin: 5px;
 padding: 1rem;
     }
@@ -53,61 +53,57 @@ padding: 1rem;
   
   
   .header {
-      display: inline-block;
-margin: 5px;
-padding: 1rem;
+      display: inline-flex;
+
+padding: 10px 100px;
   }
   
   .header input[type="text"] {
-      display: inline-block;
-margin: 5px;
-padding: 1rem;
+      display: inline-flex;
+;
+padding: 10px 100px;
   }
       
   
   .header button {
-      display: inline-block;
-margin: 5px;
-padding: 1rem;
+      display: inline-flex;
+
+      padding: 10px 90px;
   }
   
   .header button input {
-      display: inline-block;
-margin: 5px;
-padding: 1rem;
+      display: inline-flex;
+
+      padding: 10px 90px;
   }
    
   .hero {
-      display: block;
-margin: 5px;
-padding: 1rem;
+      display: grid;
+
   }
   
    .hero h1 {
       display: grid;
-margin: 5px;
-padding: 1rem;
+
   }
   
    .hero button {
-      display: inline-block;
-margin: 5px;
-padding: 1rem;
+      display: grid;
+
    }
    .section {
       display: grid;
-margin: 5px;
-padding: 2rem 1rem;
+;
   }
   
    .cards {
-      display: -ms-inline-grid;
+      display: grid;
 margin: 5px;
 padding: 1rem;
   }
   
    .card {
-      display: -ms-inline-grid;
+      display: grid;
 margin: 10px;
 padding: 1rem;
    }
@@ -119,7 +115,7 @@ padding: 1rem;
   }
   
    .footer-section .circle {
-      display: grid;
+      display: inline-block;
 margin: 10px;
 padding: 1rem;
       
@@ -133,7 +129,7 @@ padding: 1rem;
 
 
 
-@media (max-width: 600px) {
+@media (min-width: 481px) and (max-width:768px) {
   body {
       margin: 0;
       font-family: arial, sans-serif;
@@ -190,7 +186,7 @@ padding: 1rem;
   .header {
       display: inline-flex;
 margin: 5px;
-padding: 1rem;
+padding: 0px 50px;
   }
   
   .header input[type="text"] {
@@ -213,9 +209,9 @@ padding: 1rem;
   }
    
   .hero {
-      display: inline-block;
+      display: block;
 margin: 5px;
-padding: 1rem;
+padding: 20px 90px;
   }
   
    .hero h1 {
@@ -254,7 +250,7 @@ padding: 1rem;
   }
   
    .footer-section .circle {
-      display: grid;
+      display: inline-block;
 margin: 10px;
 padding: 1rem;
       
@@ -266,11 +262,17 @@ padding: 1rem;
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width:1201px) {
   .cards {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+.footer-section {
+  flex-wrap: wrap;
+  
+margin: 10px;
+padding: 1rem;
 }
 }
