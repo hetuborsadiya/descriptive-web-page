@@ -123,9 +123,8 @@
  }
 
 .footer-section {
-  justify-content: flex;
+  justify-content: center;
     border: .0.5px white;
-     margin-bottom: 200px;
     display: flex;
     background: #D8A200;
     color: #fff;
@@ -147,7 +146,8 @@
 }
 
 footer {
-  
+  margin-bottom: 5px;
+    display: center;
     text-align: center;
     background-color: #fff;
     color: #2a58ad;
